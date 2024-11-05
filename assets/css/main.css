@@ -138,6 +138,11 @@ input, select, textarea {
 		letter-spacing: -1px;
 	}
 
+body {
+    background-color: #f0f0f0; /* Escolha a cor desejada */
+}
+
+
 	h1, h2, h3, h4 {
 		color: #007897;
 		font-weight: normal;
