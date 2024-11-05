@@ -136,11 +136,9 @@ input, select, textarea {
 		font-family: 'Ubuntu Condensed', sans-serif;
 		color: #878e83;
 		letter-spacing: -1px;
-	}
+		background-color: #f0f0f0; 
 
-body {
-    background-color: #f0f0f0; /* Escolha a cor desejada */
-}
+	}
 
 
 	h1, h2, h3, h4 {
