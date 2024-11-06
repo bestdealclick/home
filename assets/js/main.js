@@ -21,10 +21,10 @@
 
 		// Title Bar.
 			$(
-				'<div id="titleBar">' +
-					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
-				'</div>'
+			'<div id="titleBar">' +
+				'<a href="#navPanel" class="toggle" aria-label="Open Navigation Menu"></a>' +
+				'<span class="title">' + $('#logo').html() + '</span>' +
+			'</div>'
 			)
 				.appendTo($body);
 
