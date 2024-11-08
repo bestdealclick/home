@@ -28,14 +28,46 @@
             color: #1a5276;
         }
 		    
+/* Links no rodapé */
+    #copyright a,
+    #footer-wrapper .link-list a,
+    #footer-wrapper p {
+        color: #0044cc; /* Azul escuro para contraste */
+        font-weight: bold;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+			    /* Estilo do copyright no rodapé */
+    #copyright footer {
+        color: #444444; /* Cor de contraste melhorado */
+        font-weight: bold;
+    }
+			
+
+    /* Estilo de hover */
+    #copyright a:hover,
+    #footer-wrapper .link-list a:hover,
+    #footer-wrapper p:hover {
+        color: #ff6600; /* Laranja para hover */
+    }
+
+    /* Texto da seção de assistência */
+    #footer-wrapper .col-4 p {
+        color: #333333; /* Contraste melhorado */
+        font-weight: 500;
+    }
+
+
+			
     #footer-wrapper .link-list a {
-        color: #0581A0; 
+        color: #0B0D0A; 
         font-weight: bold; 
         text-decoration: none;
         transition: color 0.3s;
     }
     #footer-wrapper .link-list a:hover {
-        color: #ff6600; 
+        color: #ff6600; /* Cor laranja para hover */
     }
 		    
     </style>
